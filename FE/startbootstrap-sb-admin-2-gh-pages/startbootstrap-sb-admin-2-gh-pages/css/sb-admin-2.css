@@ -230,6 +230,7 @@ label {
   margin-bottom: 0.5rem;
 }
 
+
 button {
   border-radius: 0;
 }
@@ -2344,6 +2345,12 @@ textarea.form-control {
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
+}
+
+.btn-primary-azul {
+  color: #fff;
+  font-weight: bold;
+  background-color: #43BBC9;
 }
 
 .btn-primary {
@@ -6461,6 +6468,7 @@ button.bg-dark:focus {
   background-color: transparent !important;
 }
 
+
 .border {
   border: 1px solid #e3e6f0 !important;
 }
@@ -9862,6 +9870,18 @@ a:focus {
   animation-timing-function: opacity cubic-bezier(0, 1, 0.4, 1);
 }
 
+.bg-gradient-primary-azul {
+  background-color: #43bcc97c;
+}
+
+.bg-gradient-primary-amarelo {
+  background-color: #43bcc97c;
+}
+
+.bg-gradient-primary-roxo {
+  background-color: #43bcc97c;
+}
+
 .bg-gradient-primary {
   background-color: #4e73df;
   background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
@@ -9988,6 +10008,11 @@ a:focus {
 
 .text-gray-800 {
   color: #5a5c69 !important;
+}
+
+.titulos {
+  color: #3a3b45;
+  font-weight: bold;
 }
 
 .text-gray-900 {
@@ -11241,4 +11266,9 @@ footer.sticky-footer .copyright {
 
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
+}
+
+.labels-login-azul {
+  color: #43BBC9;
+  font-size: 14px;
 }
