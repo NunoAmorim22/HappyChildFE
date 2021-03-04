@@ -11710,13 +11710,6 @@ body.sidebar-toggled footer.sticky-footer {
     background-image: url(/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/clouds_backgroud.jpg);
     background-repeat: repeat-y;
   }
-/*
-#bg2 {
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
-  background-image: url(/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/clouds_backgroud.jpg);
-}*/
 
 .titulos {
   color: #3a3b45;
@@ -11766,4 +11759,9 @@ body.sidebar-toggled footer.sticky-footer {
   color: #fff;
   font-weight: bold;
   background-color: #E5004E;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
