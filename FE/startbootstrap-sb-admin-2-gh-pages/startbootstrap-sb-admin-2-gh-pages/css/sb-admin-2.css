@@ -11705,7 +11705,7 @@ body.sidebar-toggled footer.sticky-footer {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
-  background-image: url(/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/clouds_backgroud.jpg);
+  background-image: url("img/clouds_backgroud.jpg");
   background-repeat: repeat-y;
 }
 
@@ -11795,29 +11795,17 @@ body.sidebar-toggled footer.sticky-footer {
   height: auto;
 }
 
-.gender-male {
-  position: relative;
-  width: 100%;
-  max-width: 146px;
-  height: auto;
-
-  border-radius: 50%;
-}
-
-.gender-female {
-  position: relative;
-  width: 100%;
-  max-width: 146px;
+.gender {
+  max-width: 100%;
+  width: 130px;
   height: auto;
 
   border-radius: 50%;
 }
 
 .kids-images{
-  position: relative;
-width: 100%;
-max-width: 293px;
-height: auto ;
+  max-width: 100%;
+  height: auto;
 border-radius: 50%;
-display: inline-block;
 }
+
