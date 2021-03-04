@@ -250,6 +250,7 @@ label {
   margin-bottom: 0.5rem;
 }
 
+
 button {
   border-radius: 0;
 }
@@ -6873,6 +6874,7 @@ button.bg-dark:focus {
   background-color: transparent !important;
 }
 
+
 .border {
   border: 1px solid #e3e6f0 !important;
 }
@@ -11715,3 +11717,56 @@ body.sidebar-toggled footer.sticky-footer {
   background-attachment: fixed;
   background-image: url(/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/clouds_backgroud.jpg);
 }*/
+<<<<<<< HEAD
+=======
+
+.titulos {
+  color: #3a3b45;
+  font-weight: bold;
+}
+
+.bg-gradient-primary-azul {
+  background-color: #43bcc97c;
+}
+
+.bg-gradient-primary-amarelo {
+  background-color: #f7bd0070;
+}
+
+.bg-gradient-primary-magenta {
+  background-color: #55004034;
+}
+
+.labels-login-azul {
+  color: #43BBC9;
+  font-size: 14px;
+}
+
+.labels-login-amarelo {
+  color: #F7BE00;
+  font-size: 14px;
+}
+
+.labels-login-magenta {
+  color: #E5004E;
+  font-size: 14px;
+}
+
+.btn-azul {
+  color: #fff;
+  font-weight: bold;
+  background-color: #43BBC9;
+}
+
+.btn-amarelo {
+  color: #fff;
+  font-weight: bold;
+  background-color: #F7BE00;
+}
+
+.btn-magenta {
+  color: #fff;
+  font-weight: bold;
+  background-color: #E5004E;
+}
+>>>>>>> 336f1b603c09a5eb47af3405419249d951bef801
