@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Login</title>
+    <title>Happy Child - Login</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -18,15 +18,20 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/sb-admin-2.css" rel="stylesheet">
 
 </head>
 
-<body class="bg-gradient-primary">
+<!-- colocar javascript a mudar a cor de fundo -->
+<body class="bg-gradient-primary-azul">
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
     <div class="container">
 
         <!-- Outer Row -->
+        <div class="row justify-content-center">
+            <img src="/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/LogoApp.png">
+        </div>
         <div class="row justify-content-center">
 
             <div class="col-xl-10 col-lg-12 col-md-9">
@@ -35,49 +40,40 @@
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-8">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                                        <h1 class="h2 titulos mb-4">Login</h1>
                                     </div>
                                     <form class="user">
                                         <div class="form-group">
+                                            <label id="emailcor" class="labels-login-azul"> Email </label>
                                             <input type="email" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Enter Email Address...">
+                                                id="inputEmail" aria-describedby="emailHelp"
+                                                placeholder="Introduza um email...">
                                         </div>
                                         <div class="form-group">
+                                            <label id="passwordCor" class="labels-login-azul"> Password </label>
                                             <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Password">
+                                                id="inputPassword" placeholder="introduza uma palavra-passe...">
                                         </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Remember
-                                                    Me</label>
-                                            </div>
-                                        </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                        <br>
+                                        <!-- colocar no href da linha de baixo o caminho para a proxima pagína -->
+                                        <a href="" class="btn btn-primary-azul btn-block">
                                             Login
                                         </a>
-                                        <hr>
-                                        <a href="index.html" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Login with Google
-                                        </a>
-                                        <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-                                        </a>
                                     </form>
-                                    <hr>
+                                    <br>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Forgot Password?</a>
+                                        <a class="small" href="forgot-password.html"> Recuperar Password</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="register.html">Create an Account!</a>
+                                        <a class="small" href="register.html"> Criar conta</a>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-2"></div>
                         </div>
                     </div>
                 </div>
