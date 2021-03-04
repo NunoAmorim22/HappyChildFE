@@ -2515,12 +2515,6 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
-.btn-primary-azul {
-  color: #fff;
-  font-weight: bold;
-  background-color: #43BBC9;
-}
-
 .btn-primary {
   color: #fff;
   background-color: #4e73df;
@@ -10298,18 +10292,6 @@ a:focus {
   animation-timing-function: opacity cubic-bezier(0, 1, 0.4, 1);
 }
 
-.bg-gradient-primary-azul {
-  background-color: #43bcc97c;
-}
-
-.bg-gradient-primary-amarelo {
-  background-color: #43bcc97c;
-}
-
-.bg-gradient-primary-roxo {
-  background-color: #43bcc97c;
-}
-
 .bg-gradient-primary {
   background-color: #4e73df;
   background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
@@ -10436,11 +10418,6 @@ a:focus {
 
 .text-gray-800 {
   color: #5a5c69 !important;
-}
-
-.titulos {
-  color: #3a3b45;
-  font-weight: bold;
 }
 
 .text-gray-900 {
@@ -11721,10 +11698,6 @@ body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
 
-.labels-login-azul {
-  color: #43BBC9;
-  font-size: 14px;
-}
 
 
 /*----------------------------------------------------------NOSSO A PARTIR DAQUI------------------------------------------------------*/
@@ -11752,3 +11725,53 @@ body.sidebar-toggled footer.sticky-footer {
   background-attachment: fixed;
   background-image: url(/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/clouds_backgroud.jpg);
 }*/
+
+.titulos {
+  color: #3a3b45;
+  font-weight: bold;
+}
+
+.bg-gradient-primary-azul {
+  background-color: #43bcc97c;
+}
+
+.bg-gradient-primary-amarelo {
+  background-color: #f7bd0070;
+}
+
+.bg-gradient-primary-magenta {
+  background-color: #55004034;
+}
+
+.labels-login-azul {
+  color: #43BBC9;
+  font-size: 14px;
+}
+
+.labels-login-amarelo {
+  color: #F7BE00;
+  font-size: 14px;
+}
+
+.labels-login-magenta {
+  color: #E5004E;
+  font-size: 14px;
+}
+
+.btn-azul {
+  color: #fff;
+  font-weight: bold;
+  background-color: #43BBC9;
+}
+
+.btn-amarelo {
+  color: #fff;
+  font-weight: bold;
+  background-color: #F7BE00;
+}
+
+.btn-magenta {
+  color: #fff;
+  font-weight: bold;
+  background-color: #E5004E;
+}
