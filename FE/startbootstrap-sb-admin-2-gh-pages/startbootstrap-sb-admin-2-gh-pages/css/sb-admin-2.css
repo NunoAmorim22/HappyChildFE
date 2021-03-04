@@ -11696,6 +11696,13 @@ body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
 
+
+
+/*----------------------------------------------------------NOSSO A PARTIR DAQUI------------------------------------------------------*/
+.centerthings{
+  margin:0 auto;
+}
+
 #bg2 {
   content: "";
   background-image: url("/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/clouds_backgroud.jpg");
