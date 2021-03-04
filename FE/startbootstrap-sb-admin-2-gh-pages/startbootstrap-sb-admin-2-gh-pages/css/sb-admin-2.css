@@ -250,7 +250,6 @@ label {
   margin-bottom: 0.5rem;
 }
 
-
 button {
   border-radius: 0;
 }
@@ -6874,7 +6873,6 @@ button.bg-dark:focus {
   background-color: transparent !important;
 }
 
-
 .border {
   border: 1px solid #e3e6f0 !important;
 }
@@ -11703,13 +11701,14 @@ body.sidebar-toggled footer.sticky-footer {
   margin: 0 auto;
 }
 
-#bg2  {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-image: url(/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/clouds_backgroud.jpg);
-    background-repeat: repeat-y;
-  }
+#bg2 {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-image: url(/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/clouds_backgroud.jpg);
+  background-repeat: repeat-y;
+  background-
+}
 
 .titulos {
   color: #3a3b45;
@@ -11729,39 +11728,55 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .labels-login-azul {
-  color: #43BBC9;
+  color: #43bbc9;
   font-size: 14px;
 }
 
 .labels-login-amarelo {
-  color: #F7BE00;
+  color: #f7be00;
   font-size: 14px;
 }
 
 .labels-login-magenta {
-  color: #E5004E;
+  color: #e5004e;
   font-size: 14px;
 }
 
 .btn-azul {
   color: #fff;
   font-weight: bold;
-  background-color: #43BBC9;
+  background-color: #43bbc9;
 }
 
 .btn-amarelo {
   color: #fff;
   font-weight: bold;
-  background-color: #F7BE00;
+  background-color: #f7be00;
 }
 
 .btn-magenta {
   color: #fff;
   font-weight: bold;
-  background-color: #E5004E;
+  background-color: #e5004e;
 }
 
 .responsive {
   max-width: 100%;
   height: auto;
+}
+
+.gender-male {
+  width: 100%;
+  max-width: 146px;
+  height: auto;
+
+  border-radius: 90px;
+}
+
+.gender-female {
+  width: 100%;
+  max-width: 146px;
+  height: auto;
+
+  border-radius: 90px;
 }
