@@ -11796,17 +11796,28 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .gender-male {
+  position: relative;
   width: 100%;
   max-width: 146px;
   height: auto;
 
-  border-radius: 90px;
+  border-radius: 50%;
 }
 
 .gender-female {
+  position: relative;
   width: 100%;
   max-width: 146px;
   height: auto;
 
-  border-radius: 90px;
+  border-radius: 50%;
+}
+
+.kids-images{
+  position: relative;
+width: 100%;
+max-width: 293px;
+height: auto ;
+border-radius: 50%;
+display: inline-block;
 }
