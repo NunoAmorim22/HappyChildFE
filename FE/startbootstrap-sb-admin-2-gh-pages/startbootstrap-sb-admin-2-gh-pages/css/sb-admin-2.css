@@ -11825,3 +11825,9 @@ height: auto ;
 border-radius: 50%;
 display: inline-block;
 }
+
+#nave-menu-azul{
+  font-size: 15px; 
+  color: #44BBC9; 
+  font-weight: bold;
+}
