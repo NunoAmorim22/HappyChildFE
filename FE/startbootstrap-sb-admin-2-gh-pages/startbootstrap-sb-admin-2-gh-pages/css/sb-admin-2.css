@@ -11709,12 +11709,12 @@ body.sidebar-toggled footer.sticky-footer {
   background-repeat: repeat-y;
 }
 
-  #bg1  {
+#bg1  {
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-    background-image: url();
-    background-repeat: repeat-y;
+    background-image: url(/FE/startbootstrap-sb-admin-2-gh-pages/startbootstrap-sb-admin-2-gh-pages/img/Fundo1.jpg);
+    
   }
 
 .titulos {
@@ -11732,6 +11732,10 @@ body.sidebar-toggled footer.sticky-footer {
 
 .bg-gradient-primary-magenta {
   background-color: #55004034;
+}
+
+.bg-primary-escuro {
+  background-color: #10009ca2;
 }
 
 .labels-login-azul {
@@ -11809,3 +11813,8 @@ body.sidebar-toggled footer.sticky-footer {
 border-radius: 50%;
 }
 
+#nave-menu-azul{
+  font-size: 15px; 
+  color: #44BBC9; 
+  font-weight: bold;
+}
